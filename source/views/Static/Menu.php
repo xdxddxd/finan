@@ -50,24 +50,24 @@
     <nav class="d-block d-md-none">
         <input type="checkbox" id="menu-collapse">
         <label for="menu-collapse" id="hamburguer">
-            <i class="fas fa-bars"></i>
+            <span class="hamburger"></span>
         </label>
         <div class="menu-mobile" onclick="$('#menu-collapse').click();">
 
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a role="button" class="btn btn-outline-secondary" href="#">Sobre Nós</a>
-                    </li>
-                    <li class="nav-item">
-                        <a role="button" class="btn btn-outline-secondary" href="#">Como Funciona</a>
-                    </li>
-                    <li class="nav-item">
-                        <a role="button" class="btn btn-outline-secondary" href="#">Poítica de Privacidade</a>
-                    </li>
-                    <li class="nav-item">
-                        <a role="button" class="btn btn-outline-secondary" href="#">Entre em Contato</a>
-                    </li>
-                </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a role="button" class="btn btn-outline-secondary" href="#">Sobre Nós</a>
+                </li>
+                <li class="nav-item">
+                    <a role="button" class="btn btn-outline-secondary" href="#">Como Funciona</a>
+                </li>
+                <li class="nav-item">
+                    <a role="button" class="btn btn-outline-secondary" href="#">Poítica de Privacidade</a>
+                </li>
+                <li class="nav-item">
+                    <a role="button" class="btn btn-outline-secondary" href="#">Entre em Contato</a>
+                </li>
+            </ul>
 
         </div>
     </nav>
