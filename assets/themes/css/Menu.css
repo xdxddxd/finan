@@ -5,7 +5,7 @@
 .hamburger {
     position: relative;
     display: block;
-    background: #000;
+    background: gray;
     width: 32px;
     height: 2px;
 }
@@ -13,7 +13,7 @@
 .hamburger:before,
 .hamburger:after {
     content: "";
-    background: #000;
+    background: gray;
     display: block;
     width: 100%;
     height: 100%;
