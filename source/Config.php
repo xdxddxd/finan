@@ -1,6 +1,6 @@
 <?php
 
-    define("URL_BASE", "https://192.168.1.10/bev");
+    define("URL_BASE", "https://finan.derik.site/");
 
     define("DATA_LAYER_CONFIG", [
         "driver" => "mysql",
