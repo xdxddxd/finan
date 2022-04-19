@@ -42,10 +42,6 @@
     <div class="row" id="p2">
 
         <div class="col-md-6">
-            <img src="<?php echo URL_BASE; ?>assets/img/credito.svg" alt="Crédito" class="apresentacao-main apresentacao m-auto">
-        </div>
-
-        <div class="col-md-6">
 
             <div class="apresentacao-txt">
                 <!-- Page Heading -->
@@ -69,6 +65,10 @@
 
             </div>
 
+        </div>
+
+        <div class="col-md-6">
+            <img src="<?php echo URL_BASE; ?>assets/img/credito.svg" alt="Crédito" class="apresentacao-main apresentacao m-auto">
         </div>
 
     </div>
@@ -203,9 +203,9 @@
                                 </div>
                             </div>
                             <div class="form-group">
-                                    <label for="bairro">Bairro</label>
-                                    <input type="text" class="form-control" id="bairro" placeholder="Vila Madalena">
-                                </div>
+                                <label for="bairro">Bairro</label>
+                                <input type="text" class="form-control" id="bairro" placeholder="Vila Madalena">
+                            </div>
                             <div class="form-row">
                                 <div class="form-group col-md-8">
                                     <label for="cidade">Cidade</label>
@@ -218,7 +218,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-xs-6">
-                                    <button type="button" class="btn btn-light w-100"  onclick="steps(2, 'back')">Voltar</button>
+                                    <button type="button" class="btn btn-light w-100" onclick="steps(2, 'back')">Voltar</button>
                                 </div>
                                 <div class="col-xs-6">
                                     <button type="button" class="btn btn-success w-100" onclick="steps(2, 'go')">Continuar</button>
