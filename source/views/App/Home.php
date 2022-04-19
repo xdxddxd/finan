@@ -177,10 +177,10 @@
                             </div>
                             <br>
                             <div class="row">
-                                <div class="col-md-6">
+                                <div class="col-xs-6">
                                     <button type="button" class="btn btn-light w-100" data-dismiss="modal">Cancelar</button>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-xs-6">
                                     <button type="button" class="btn btn-success w-100" onclick="steps(1, 'go')">Continuar</button>
                                 </div>
                             </div>
@@ -217,10 +217,10 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-6">
+                                <div class="col-xs-6">
                                     <button type="button" class="btn btn-light w-100"  onclick="steps(2, 'back')">Voltar</button>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-xs-6">
                                     <button type="button" class="btn btn-success w-100" onclick="steps(2, 'go')">Continuar</button>
                                 </div>
                             </div>
@@ -250,10 +250,10 @@
                             </div>
                             <div id="response"></div>
                             <div class="row">
-                                <div class="col-md-6">
+                                <div class="col-xs-6">
                                     <button type="button" class="btn btn-light w-100" onclick="steps(3, 'back')">Voltar</button>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-xs-6">
                                     <button type="submit" class="btn btn-success w-100">Enviar Dados</button>
                                 </div>
                             </div>

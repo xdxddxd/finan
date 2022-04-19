@@ -3,7 +3,9 @@
     padding: 20px;
 }
 
-#p1, #p3, #p4 {
+#p1,
+#p3,
+#p4 {
     position: relative;
     padding: 50px;
 }
@@ -14,31 +16,34 @@
     height: 100vh;
 }
 
-.apresentacao-txt {
-    display: flex;
-    flex-direction: column;
+@media screen and (min-width: 768px) {
+    .apresentacao-txt {
+        display: flex;
+        flex-direction: column;
 
-    position: absolute;
+        position: absolute;
 
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+
+    .apresentacao-main {
+        position: absolute;
+
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        max-width: 100%;
+        max-height: 350px;
+    }
 }
 
 .apresentacao {
 
     max-width: 100%;
     max-height: 350px;
-    
-}
 
-.apresentacao-main {
-    position: absolute;
-
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-    max-width: 100%;
-    max-height: 350px;
 }
