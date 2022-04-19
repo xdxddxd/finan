@@ -42,7 +42,7 @@
     <div class="row" id="p2">
 
         <div class="col-md-6">
-            <img src="<?php echo URL_BASE; ?>assets/img/credito.svg" alt="Crédito" class="apresentacao-main m-auto">
+            <img src="<?php echo URL_BASE; ?>assets/img/credito.svg" alt="Crédito" class="apresentacao-main apresentacao m-auto">
         </div>
 
         <div class="col-md-6">
