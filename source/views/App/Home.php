@@ -202,6 +202,7 @@
 
                         <div class="d-none" id="step-2">
                             <h3>Informações Adicionais</h3>
+                            <h4>Informe sua Ocupação:</h4>
                             <div class="form-group">
                                 <div class="form-check">
                                     <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
