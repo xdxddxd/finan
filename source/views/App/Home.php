@@ -205,31 +205,31 @@
                             <h4>Informe sua Ocupação:</h4>
                             <div class="form-group">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                    <input class="form-check-input" type="radio" name="funcao" id="exampleRadios1" value="option1" checked>
                                     <label class="form-check-label" for="exampleRadios1">
                                         INSS
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                    <input class="form-check-input" type="radio" name="funcao" id="exampleRadios2" value="option2">
                                     <label class="form-check-label" for="exampleRadios2">
                                         FGTS
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option2">
+                                    <input class="form-check-input" type="radio" name="funcao" id="exampleRadios3" value="option2">
                                     <label class="form-check-label" for="exampleRadios3">
                                         Aposentado
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4" value="option2">
+                                    <input class="form-check-input" type="radio" name="funcao" id="exampleRadios4" value="option2">
                                     <label class="form-check-label" for="exampleRadios4">
                                         Assalariado
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios5" value="option2">
+                                    <input class="form-check-input" type="radio" name="funcao" id="exampleRadios5" value="option2">
                                     <label class="form-check-label" for="exampleRadios5">
                                         Autônomo
                                     </label>

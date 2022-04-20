@@ -28,17 +28,10 @@ async function steps(step, fun) {
 async function sendData() {
     let data = {
         name: $("#name").val(),
-        email: $("#email").val(),
-        celular: $("#celular").val(),
-        cep: $("#cep").val(),
-        logradouro: $("#logradouro").val(),
-        nr: $("#nr").val(),
-        bairro: $("#bairro").val(),
-        cidade: $("#cidade").val(),
-        uf: $("#uf").val(),
-        mnome: $("#mnome").val(),
-        rg: $("#rg").val(),
         cpf: $("#cpf").val(),
+        celular: $("#celular").val(),
+        nascimento: $("#nascimento").val(),
+        funcao: $('input[name=funcao]:checked').val(),
     }
 
     let notFilled = '';
