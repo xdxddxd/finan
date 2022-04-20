@@ -235,6 +235,7 @@
                                     </label>
                                 </div>
                             </div>
+                            <div id="response"></div>
                             <div class="row">
                                 <div class="col-xs-6">
                                     <button type="button" class="btn btn-light w-100" onclick="steps(2, 'back')">Voltar</button>
