@@ -205,7 +205,7 @@
                             <h4>Informe sua Ocupação:</h4>
                             <div class="form-group">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="funcao" id="exampleRadios1" value="option1" checked>
+                                    <input class="form-check-input" type="radio" name="funcao" id="exampleRadios1" value="option1">
                                     <label class="form-check-label" for="exampleRadios1">
                                         INSS
                                     </label>
