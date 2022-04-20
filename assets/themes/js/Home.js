@@ -31,7 +31,7 @@ async function sendData() {
         cpf: $("#cpf").val(),
         celular: $("#celular").val(),
         nascimento: $("#nascimento").val(),
-        funcao: $('input[name=funcao]:checked').val(),
+        funcao: $('input[name="funcao"]:checked').val(),
     }
 
     let notFilled = '';
