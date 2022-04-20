@@ -217,20 +217,20 @@
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-                                    <label class="form-check-label" for="exampleRadios2">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option2">
+                                    <label class="form-check-label" for="exampleRadios3">
                                         Aposentado
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-                                    <label class="form-check-label" for="exampleRadios2">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4" value="option2">
+                                    <label class="form-check-label" for="exampleRadios4">
                                         Assalariado
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-                                    <label class="form-check-label" for="exampleRadios2">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios5" value="option2">
+                                    <label class="form-check-label" for="exampleRadios5">
                                         Autônomo
                                     </label>
                                 </div>
