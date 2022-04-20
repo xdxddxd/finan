@@ -164,27 +164,29 @@
                         <div id="step-1">
                             <h3>Dados para Contato</h3>
                             <div class="form-group">
-                                <label for="name">Nome Completo</label>
-                                <input type="text" class="form-control" id="name" placeholder="Fulano Beltrano Silva">
-                            </div>
-                            <div class="form-group">
-                                <label for="cpf">CPF</label>
-                                <input type="text" class="form-control" id="cpf" placeholder="000.000.000-00">
-                            </div>
-                            <div>
-                                <label for="celular">Celular</label>
-                                <input type="tel" class="form-control" id="celular" placeholder="(00) 00000-0000">
-                            </div>
-                            <div>
-                                <label for="nascimento">Data de Nascimento</label>
-                                <input type="date" class="form-control" id="nascimento" placeholder="19/03/2001">
-                            </div>
-                            <div class="form-group">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="gridCheck" required>
-                                    <label class="form-check-label" for="gridCheck">
-                                        Concordo com os <a href="#">termos de uso</a> e <a href="#">LGPD</a>
-                                    </label>
+                                <div class="form-group">
+                                    <label for="name">Nome Completo</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Fulano Beltrano Silva">
+                                </div>
+                                <div class="form-group">
+                                    <label for="cpf">CPF</label>
+                                    <input type="text" class="form-control" id="cpf" placeholder="000.000.000-00">
+                                </div>
+                                <div>
+                                    <label for="celular">Celular</label>
+                                    <input type="tel" class="form-control" id="celular" placeholder="(00) 00000-0000">
+                                </div>
+                                <div>
+                                    <label for="nascimento">Data de Nascimento</label>
+                                    <input type="date" class="form-control" id="nascimento" placeholder="19/03/2001">
+                                </div>
+                                <div class="form-group">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="gridCheck" required>
+                                        <label class="form-check-label" for="gridCheck">
+                                            Concordo com os <a href="#">termos de uso</a> e <a href="#">LGPD</a>
+                                        </label>
+                                    </div>
                                 </div>
                             </div>
                             <br>
@@ -200,7 +202,7 @@
 
                         <div class="d-none" id="step-2">
                             <h3>Informações Adicionais</h3>
-                            
+
                             <div class="row">
                                 <div class="col-xs-6">
                                     <button type="button" class="btn btn-light w-100" onclick="steps(2, 'back')">Voltar</button>
