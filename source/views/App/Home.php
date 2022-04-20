@@ -172,11 +172,11 @@
                                     <label for="cpf">CPF</label>
                                     <input type="text" class="form-control" id="cpf" placeholder="000.000.000-00">
                                 </div>
-                                <div>
+                                <div class="form-group">
                                     <label for="celular">Celular</label>
                                     <input type="tel" class="form-control" id="celular" placeholder="(00) 00000-0000">
                                 </div>
-                                <div>
+                                <div class="form-group">
                                     <label for="nascimento">Data de Nascimento</label>
                                     <input type="date" class="form-control" id="nascimento" placeholder="19/03/2001">
                                 </div>
