@@ -180,13 +180,13 @@
                                     <label for="nascimento">Data de Nascimento</label>
                                     <input type="date" class="form-control" id="nascimento" placeholder="19/03/2001">
                                 </div>
-                                <div class="form-group">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" id="gridCheck" required>
-                                        <label class="form-check-label" for="gridCheck">
-                                            Concordo com os <a href="#">termos de uso</a> e <a href="#">LGPD</a>
-                                        </label>
-                                    </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck" required>
+                                    <label class="form-check-label" for="gridCheck">
+                                        Concordo com os <a href="#">termos de uso</a> e <a href="#">LGPD</a>
+                                    </label>
                                 </div>
                             </div>
                             <br>
