@@ -168,12 +168,24 @@
                                 <input type="text" class="form-control" id="name" placeholder="Fulano Beltrano Silva">
                             </div>
                             <div class="form-group">
-                                <label for="email">Email</label>
-                                <input type="email" class="form-control" id="email" placeholder="fulano@provedor.dominio">
+                                <label for="cpf">CPF</label>
+                                <input type="text" class="form-control" id="cpf" placeholder="000.000.000-00">
                             </div>
                             <div>
                                 <label for="celular">Celular</label>
                                 <input type="tel" class="form-control" id="celular" placeholder="(00) 00000-0000">
+                            </div>
+                            <div>
+                                <label for="nascimento">Data de Nascimento</label>
+                                <input type="date" class="form-control" id="nascimento" placeholder="19/03/2001">
+                            </div>
+                            <div class="form-group">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck" required>
+                                    <label class="form-check-label" for="gridCheck">
+                                        Concordo com os <a href="#">termos de uso</a> e <a href="#">LGPD</a>
+                                    </label>
+                                </div>
                             </div>
                             <br>
                             <div class="row">
@@ -187,71 +199,11 @@
                         </div>
 
                         <div class="d-none" id="step-2">
-                            <h3>Endereço</h3>
-                            <div class="form-group">
-                                <label for="cep">CEP</label>
-                                <input type="text" class="form-control" id="cep" placeholder="00000-000">
-                            </div>
-                            <div class="form-row">
-                                <div class="form-group col-md-8">
-                                    <label for="logradouro">Logradouro</label>
-                                    <input type="text" class="form-control" id="logradouro" placeholder="Av. Paulista">
-                                </div>
-                                <div class="form-group col-md-4">
-                                    <label for="nr">N°</label>
-                                    <input type="text" class="form-control" id="nr" placeholder="0">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label for="bairro">Bairro</label>
-                                <input type="text" class="form-control" id="bairro" placeholder="Vila Madalena">
-                            </div>
-                            <div class="form-row">
-                                <div class="form-group col-md-8">
-                                    <label for="cidade">Cidade</label>
-                                    <input type="text" class="form-control" id="cidade" placeholder="São Paulo">
-                                </div>
-                                <div class="form-group col-md-4">
-                                    <label for="uf">UF</label>
-                                    <input type="text" class="form-control" id="uf" placeholder="SP">
-                                </div>
-                            </div>
+                            <h3>Informações Adicionais</h3>
+                            
                             <div class="row">
                                 <div class="col-xs-6">
                                     <button type="button" class="btn btn-light w-100" onclick="steps(2, 'back')">Voltar</button>
-                                </div>
-                                <div class="col-xs-6">
-                                    <button type="button" class="btn btn-success w-100" onclick="steps(2, 'go')">Continuar</button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="d-none" id="step-3">
-                            <h3>Dados Pessoais</h3>
-                            <div class="form-group">
-                                <label for="mnome">Nome da Mãe</label>
-                                <input type="text" class="form-control" id="mnome" placeholder="Fulana Beltrana da Silva">
-                            </div>
-                            <div class="form-group">
-                                <label for="rg">RG</label>
-                                <input type="text" class="form-control" id="rg" placeholder="00.000.000-0">
-                            </div>
-                            <div class="form-group">
-                                <label for="cpf">CPF</label>
-                                <input type="text" class="form-control" id="cpf" placeholder="000.000.000-00">
-                            </div>
-                            <div class="form-group">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="gridCheck" required>
-                                    <label class="form-check-label" for="gridCheck">
-                                        Concordo com os <a href="#">termos de uso</a> e <a href="#">LGPD</a>
-                                    </label>
-                                </div>
-                            </div>
-                            <div id="response"></div>
-                            <div class="row">
-                                <div class="col-xs-6">
-                                    <button type="button" class="btn btn-light w-100" onclick="steps(3, 'back')">Voltar</button>
                                 </div>
                                 <div class="col-xs-6">
                                     <button type="submit" class="btn btn-success w-100">Enviar Dados</button>
