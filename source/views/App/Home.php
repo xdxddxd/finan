@@ -202,7 +202,38 @@
 
                         <div class="d-none" id="step-2">
                             <h3>Informações Adicionais</h3>
-
+                            <div class="form-group">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                    <label class="form-check-label" for="exampleRadios1">
+                                        INSS
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                    <label class="form-check-label" for="exampleRadios2">
+                                        FGTS
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                    <label class="form-check-label" for="exampleRadios2">
+                                        Aposentado
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                    <label class="form-check-label" for="exampleRadios2">
+                                        Assalariado
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                    <label class="form-check-label" for="exampleRadios2">
+                                        Autônomo
+                                    </label>
+                                </div>
+                            </div>
                             <div class="row">
                                 <div class="col-xs-6">
                                     <button type="button" class="btn btn-light w-100" onclick="steps(2, 'back')">Voltar</button>
