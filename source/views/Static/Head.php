@@ -30,9 +30,13 @@
 
 <body id="page-top">
 
-<!-- Bootstrap core JavaScript-->
-<script src="<?php echo URL_BASE ?>/assets/vendor/jquery/jquery.min.js"></script>
-<script src="<?php echo URL_BASE ?>/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<!-- Bootstrap core JavaScript-->
+	<script src="<?php echo URL_BASE ?>/assets/vendor/jquery/jquery.min.js"></script>
+	<script src="<?php echo URL_BASE ?>/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-<!-- Arquivo criado por mim mesmo -->
-<script src="<?php echo URL_BASE ?>/assets/js/myfile.js"></script>
+	<!-- OWL Slider -->
+	<link rel="stylesheet" href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.theme.default.min.css">
+
+	<!-- Arquivo criado por mim mesmo -->
+	<script src="<?php echo URL_BASE ?>/assets/js/myfile.js"></script>
