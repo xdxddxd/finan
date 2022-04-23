@@ -2,7 +2,7 @@
 <script src="<?php echo URL_BASE; ?>/assets/themes/js/Menu.js"></script>
 <div class="Menu">
 
-    <nav class="d-none d-md-block navbar navbar-expand-lg navbar-light bg-transparent">
+    <nav class="d-none d-md-block navbar navbar-expand-lg navbar-dark">
 
         <div class="container">
 
@@ -17,7 +17,10 @@
 
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Sobre Nós</a>
+                        <a class="nav-link" href="#simulacao">Fazer Simulação</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre-nos">Sobre Nós</a>
                     </li>
                     <!-- <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
@@ -31,13 +34,13 @@
                     </div>
                 </li> -->
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Como Funciona</a>
+                        <a class="nav-link" href="#como-funciona">Como Funciona</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Poítica de Privacidade</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Entre em Contato</a>
+                        <a class="nav-link" href="#contato">Entre em Contato</a>
                     </li>
                 </ul>
 
@@ -56,16 +59,19 @@
 
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a role="button" class="btn btn-outline-secondary" href="#">Sobre Nós</a>
+                    <a role="button" class="btn btn-outline-secondary" href="#simulacao">Fazer Simulação</a>
                 </li>
                 <li class="nav-item">
-                    <a role="button" class="btn btn-outline-secondary" href="#">Como Funciona</a>
+                    <a role="button" class="btn btn-outline-secondary" href="#sobre-nos">Sobre Nós</a>
+                </li>
+                <li class="nav-item">
+                    <a role="button" class="btn btn-outline-secondary" href="#como-funciona">Como Funciona</a>
                 </li>
                 <li class="nav-item">
                     <a role="button" class="btn btn-outline-secondary" href="#">Poítica de Privacidade</a>
                 </li>
                 <li class="nav-item">
-                    <a role="button" class="btn btn-outline-secondary" href="#">Entre em Contato</a>
+                    <a role="button" class="btn btn-outline-secondary" href="#contato">Entre em Contato</a>
                 </li>
             </ul>
 

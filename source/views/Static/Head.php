@@ -37,6 +37,8 @@
 	<!-- OWL Slider -->
 	<link rel="stylesheet" href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.carousel.min.css">
 	<link rel="stylesheet" href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.theme.default.min.css">
+	<!-- OWL Script -->
+	<script src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js"></script>
 
 	<!-- Arquivo criado por mim mesmo -->
 	<script src="<?php echo URL_BASE ?>/assets/js/myfile.js"></script>

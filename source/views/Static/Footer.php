@@ -8,9 +8,6 @@
 
 <!-- Site Scripts -->
 
-<!-- OWL Script -->
-<script src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js"></script>
-
 <!-- Core plugin JavaScript-->
 <script src="<?php echo URL_BASE ?>/assets/vendor/jquery-easing/jquery.easing.min.js"></script>
 
