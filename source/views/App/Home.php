@@ -72,26 +72,29 @@
             </div>
         </div>
     </div>
+    <div class="container">
 
-    <div class="container row" id="simulacao">
+        <div class="row" id="simulacao">
 
-        <div class="col-md-6">
+            <div class="col-md-6">
 
-            <div class="apresentacao-txt">
-                <!-- Page Heading -->
-                <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                    <h1 class="h3 mb-0 text-gray-800"><strong>Realize Seu Sonho</strong></h1>
-                </div>
+                <div class="apresentacao-txt">
+                    <!-- Page Heading -->
+                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                        <h1 class="h3 mb-0 text-gray-800"><strong>Realize Seu Sonho</strong></h1>
+                    </div>
 
-                <div class="row">
+                    <div class="row">
 
-                    <div class="col-md-12">
+                        <div class="col-md-12">
 
-                        Clique Agora no Botão abaixo e dê o primeiro passo para iniciar o seu sonho, e´bem fácil, nossa equipe irá procurar o melhor impréstimo com a melhor taxa para você.
-                        <hr>
-                        <button type="button" class="btn btn-success w-100" data-toggle="modal" data-target="#staticBackdrop">
-                            Fazer Simulação
-                        </button>
+                            Clique Agora no Botão abaixo e dê o primeiro passo para iniciar o seu sonho, e´bem fácil, nossa equipe irá procurar o melhor impréstimo com a melhor taxa para você.
+                            <hr>
+                            <button type="button" class="btn btn-success w-100" data-toggle="modal" data-target="#staticBackdrop">
+                                Fazer Simulação
+                            </button>
+
+                        </div>
 
                     </div>
 
@@ -99,107 +102,107 @@
 
             </div>
 
+            <div class="col-md-6">
+                <img src="<?php echo URL_BASE; ?>/assets/img/credito.svg" alt="Crédito" class="apresentacao-main apresentacao m-auto">
+            </div>
+
         </div>
 
-        <div class="col-md-6">
-            <img src="<?php echo URL_BASE; ?>/assets/img/credito.svg" alt="Crédito" class="apresentacao-main apresentacao m-auto">
-        </div>
+        <div class="row" id="sobre-nos">
 
-    </div>
+            <div class="col-md-6">
+                <img class="apresentacao" src="<?php echo URL_BASE; ?>/assets/img/equipe.svg" alt="economia">
+            </div>
 
-    <div class="container row" id="sobre-nos">
+            <div class="col-md-6">
 
-        <div class="col-md-6">
-            <img class="apresentacao" src="<?php echo URL_BASE; ?>/assets/img/equipe.svg" alt="economia">
-        </div>
+                <div class="apresentacao-txt">
+                    <!-- Page Heading -->
+                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                        <h1 class="h3 mb-0 text-gray-800">Sobre Nós</h1>
+                    </div>
 
-        <div class="col-md-6">
+                    <p>
+                        Nós somos uma equipe que está sempre procurando um jeito de agradar cada vez mais nossos clientes.
+                        <br>
+                        Nosso trabalho em equipe e foco nos resultados, o que nos permite ajudar a cada vez mais.
+                        <br>
+                        Sempre queremos ajudar você, e para isso, estamos sempre abertos a novas ideias.
+                    </p>
 
-            <div class="apresentacao-txt">
-                <!-- Page Heading -->
-                <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                    <h1 class="h3 mb-0 text-gray-800">Sobre Nós</h1>
                 </div>
-
-                <p>
-                    Nós somos uma equipe que está sempre procurando um jeito de agradar cada vez mais nossos clientes.
-                    <br>
-                    Nosso trabalho em equipe e foco nos resultados, o que nos permite ajudar a cada vez mais.
-                    <br>
-                    Sempre queremos ajudar você, e para isso, estamos sempre abertos a novas ideias.
-                </p>
 
             </div>
 
         </div>
 
-    </div>
+        <div class="row" id="como-funciona">
 
-    <div class="container row" id="como-funciona">
+            <div class="col-md-6">
 
-        <div class="col-md-6">
+                <div class="apresentacao-txt">
+                    <!-- Page Heading -->
+                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                        <h1 class="h3 mb-0 text-gray-800">Como Funciona ?</h1>
+                    </div>
 
-            <div class="apresentacao-txt">
-                <!-- Page Heading -->
-                <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                    <h1 class="h3 mb-0 text-gray-800">Como Funciona ?</h1>
+                    <p>
+                        <i class="fa fa-check-circle" aria-hidden="true"></i>&nbsp;É simples, basta preencher os dados do seu emprestimo e enviar.
+                        <br>
+                        <i class="fa fa-check-circle" aria-hidden="true"></i>&nbsp;Nossa equipe irá analisar seu perfil e aprovar o seu emprestimo.
+                        <br>
+                        <i class="fa fa-check-circle" aria-hidden="true"></i>&nbsp;Você receberá um email ou um whatsapp com o resultado da sua solicitação.
+                        <br>
+
+                    </p>
+
                 </div>
 
-                <p>
-                    <i class="fa fa-check-circle" aria-hidden="true"></i>&nbsp;É simples, basta preencher os dados do seu emprestimo e enviar.
-                    <br>
-                    <i class="fa fa-check-circle" aria-hidden="true"></i>&nbsp;Nossa equipe irá analisar seu perfil e aprovar o seu emprestimo.
-                    <br>
-                    <i class="fa fa-check-circle" aria-hidden="true"></i>&nbsp;Você receberá um email ou um whatsapp com o resultado da sua solicitação.
-                    <br>
+            </div>
 
-                </p>
-
+            <div class="col-md-6">
+                <img class="apresentacao" src="<?php echo URL_BASE; ?>/assets/img/cofre.svg" alt="cofre">
             </div>
 
         </div>
 
-        <div class="col-md-6">
-            <img class="apresentacao" src="<?php echo URL_BASE; ?>/assets/img/cofre.svg" alt="cofre">
-        </div>
+        <div class="row" id="contato">
 
-    </div>
+            <div class="col-md-6">
+                <img class="apresentacao" src="<?php echo URL_BASE; ?>/assets/img/contato.svg" alt="cofre">
+            </div>
 
-    <div class="container row" id="contato">
+            <div class="col-md-6">
 
-        <div class="col-md-6">
-            <img class="apresentacao" src="<?php echo URL_BASE; ?>/assets/img/contato.svg" alt="cofre">
-        </div>
+                <!-- Criar formulário para contato com bootstrap -->
 
-        <div class="col-md-6">
+                <div class="apresentacao-txt">
+                    <!-- Page Heading -->
+                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                        <h1 class="h3 mb-0 text-gray-800">Contato</h1>
+                    </div>
 
-            <!-- Criar formulário para contato com bootstrap -->
+                    <form onsubmit="return false;">
+                        <div class="form-group">
+                            <label for="nome">Nome</label>
+                            <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="telefone">Telefone</label>
+                            <input type="text" class="form-control" id="telefone" name="telefone" placeholder="Telefone">
+                        </div>
+                        <div class="form-group">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea class="form-control" id="mensagem" name="mensagem" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Enviar</button>
+                    </form>
 
-            <div class="apresentacao-txt">
-                <!-- Page Heading -->
-                <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                    <h1 class="h3 mb-0 text-gray-800">Contato</h1>
                 </div>
-
-                <form onsubmit="return false;">
-                    <div class="form-group">
-                        <label for="nome">Nome</label>
-                        <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome">
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" class="form-control" id="email" name="email" placeholder="Email">
-                    </div>
-                    <div class="form-group">
-                        <label for="telefone">Telefone</label>
-                        <input type="text" class="form-control" id="telefone" name="telefone" placeholder="Telefone">
-                    </div>
-                    <div class="form-group">
-                        <label for="mensagem">Mensagem</label>
-                        <textarea class="form-control" id="mensagem" name="mensagem" rows="3"></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary w-100">Enviar</button>
-                </form>
 
             </div>
 
