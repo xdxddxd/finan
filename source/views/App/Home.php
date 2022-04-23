@@ -107,7 +107,7 @@
 
     </div>
 
-    <div class="row" id="sobre-nos">
+    <div class="container row" id="sobre-nos">
 
         <div class="col-md-6">
             <img class="apresentacao" src="<?php echo URL_BASE; ?>/assets/img/equipe.svg" alt="economia">
@@ -135,7 +135,7 @@
 
     </div>
 
-    <div class="row" id="como-funciona">
+    <div class="container row" id="como-funciona">
 
         <div class="col-md-6">
 
@@ -165,7 +165,7 @@
 
     </div>
 
-    <div class="row" id="contato">
+    <div class="container row" id="contato">
 
         <div class="col-md-6">
             <img class="apresentacao" src="<?php echo URL_BASE; ?>/assets/img/contato.svg" alt="cofre">
